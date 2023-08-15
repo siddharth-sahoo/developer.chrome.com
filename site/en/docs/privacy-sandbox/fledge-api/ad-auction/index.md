@@ -192,7 +192,7 @@ desirability score.
         <dd>Required</dd>
         <dd>Example: <code>['https://dsp.example', 'https://buyer2.example', ...]</code></dd>
         <dd>Role: Origins of all interest group owners asked to bid in the auction.</dd>
-        <dd>Notes: The seller may specify <code>interestGroupBuyers:</code> to permit all interest groups to bid. Ads are then accepted or rejected based on criteria other than inclusion of the interest group owner. For example, the seller may review ad creatives to confirm compliance with their policies.</dd>
+        <dd>Notes: The seller may specify <code>interestGroupBuyers: '*'</code> to permit all interest groups to bid. Ads are then accepted or rejected based on criteria other than inclusion of the interest group owner. For example, the seller may review ad creatives to confirm compliance with their policies.</dd>
     <dt><code>auctionSignals</code></dt>
         <dd>Optional</dd>
         <dd>Example: <code>{...}</code></dd>
